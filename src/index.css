@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flexMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  @apply flex items-center justify-center px-4 py-2 text-lg font-medium border-2 rounded-md bg-slate-600 text-amber-100 border-slate-900 hover:bg-slate-700;
+ 
+}
+
+
+.input {
+  @apply w-full p-2 border-gray-200 rounded-md shadow-sm sm:text-sm;
+}
